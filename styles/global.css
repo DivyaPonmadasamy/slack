@@ -1,0 +1,193 @@
+body,
+pre {
+    /* font-family: "Poppins", sans-serif; */
+    font-family: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    padding: 130px 0 0 0;
+}
+
+img {
+    width: 100%;
+}
+
+.max-width {
+    max-width: 1230px;
+    margin: 0 auto;
+}
+
+.mar-auto {
+    margin: 0 auto;
+}
+
+.mar-0 {
+    margin: 0;
+}
+
+.pad-0 {
+    padding: 0;
+}
+
+/* :horizontal grid */
+.grid {
+    display: flex;
+}
+
+.inln-blk img {
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+/* flex wrap */
+.flx-wp {
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+/* vertical grid */
+.grid-v {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* grid partitions */
+.grid2 .grid-sec {
+    width: 50%;
+}
+
+.grid3 .grid-sec {
+    width: 33.33%;
+}
+
+.grid4 .grid-sec {
+    width: 25%;
+}
+
+.grid5 .grid-sec {
+    width: 20%;
+}
+
+.grid6 .grid-sec {
+    width: 16.67%;
+}
+
+.grid7 .grid-sec {
+    width: 14.29%;
+}
+
+/* upper case */
+.uc {
+    text-transform: uppercase;
+}
+
+/* text alignments */
+.tal {
+    text-align: start;
+}
+
+.tac {
+    text-align: center;
+}
+
+.tar {
+    text-align: end;
+}
+
+/* horizontal alignments */
+.jcs {
+    justify-content: flex-start;
+}
+
+.jcc {
+    justify-content: center;
+}
+
+.jce {
+    justify-content: flex-end;
+}
+
+.jcsb {
+    justify-content: space-between;
+}
+
+.jcse {
+    justify-content: space-evenly;
+}
+
+.jcsa {
+    justify-content: space-around;
+}
+
+/* vertical alignments */
+.vs {
+    align-items: flex-start;
+}
+
+.vc {
+    align-items: center;
+}
+
+.ve {
+    align-items: flex-end;
+}
+
+
+/* Header styles - beggining */
+.header {
+    padding: 7px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: transparent;
+    /* z-index: 1000; */
+}
+
+.header .menu-list {
+    padding: 0 0 0 5px;
+}
+
+.header .menu-list li {
+    cursor: pointer;
+}
+
+.top-menu {
+    max-width: 1300px;
+    min-height: 80px;
+    background-color: white;
+    box-shadow: 0 4px 40px #00000014;
+    border-radius: 50px;
+    align-items: center;
+}
+
+.top-menu img {
+    padding: 0 15px 0 30px;
+    width: 100px;
+}
+
+.menu {
+    padding: 0 18px;
+    min-width: 1135px;
+}
+
+.search-btn {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+/* Header styles - end */
